@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77F7DBB23B554E7007F38E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7DBA23B554E7007F38E0 /* AppDelegate.swift */; };
+		B77F7DBD23B554E7007F38E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7DBC23B554E7007F38E0 /* SceneDelegate.swift */; };
+		B77F7DBF23B554E7007F38E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7DBE23B554E7007F38E0 /* ViewController.swift */; };
+		B77F7DC223B554E7007F38E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77F7DC023B554E7007F38E0 /* Main.storyboard */; };
+		B77F7DC423B554EA007F38E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77F7DC323B554EA007F38E0 /* Assets.xcassets */; };
+		B77F7DC723B554EA007F38E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77F7DC523B554EA007F38E0 /* LaunchScreen.storyboard */; };
+		B77F7DD223B554EA007F38E0 /* AcronNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7DD123B554EA007F38E0 /* AcronNewsTests.swift */; };
+		B77F7DDD23B554EA007F38E0 /* AcronNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7DDC23B554EA007F38E0 /* AcronNewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B77F7DCE23B554EA007F38E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77F7DAF23B554E6007F38E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77F7DB623B554E6007F38E0;
+			remoteInfo = AcronNews;
+		};
+		B77F7DD923B554EA007F38E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77F7DAF23B554E6007F38E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77F7DB623B554E6007F38E0;
+			remoteInfo = AcronNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B77F7DB723B554E7007F38E0 /* AcronNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcronNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77F7DBA23B554E7007F38E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B77F7DBC23B554E7007F38E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B77F7DBE23B554E7007F38E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B77F7DC123B554E7007F38E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B77F7DC323B554EA007F38E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B77F7DC623B554EA007F38E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B77F7DC823B554EA007F38E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77F7DCD23B554EA007F38E0 /* AcronNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcronNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77F7DD123B554EA007F38E0 /* AcronNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronNewsTests.swift; sourceTree = "<group>"; };
+		B77F7DD323B554EA007F38E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77F7DD823B554EA007F38E0 /* AcronNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcronNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77F7DDC23B554EA007F38E0 /* AcronNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronNewsUITests.swift; sourceTree = "<group>"; };
+		B77F7DDE23B554EA007F38E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77F7DB423B554E6007F38E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77F7DCA23B554EA007F38E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77F7DD523B554EA007F38E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B77F7DAE23B554E6007F38E0 = {
+			isa = PBXGroup;
+			children = (
+				B77F7DB923B554E7007F38E0 /* AcronNews */,
+				B77F7DD023B554EA007F38E0 /* AcronNewsTests */,
+				B77F7DDB23B554EA007F38E0 /* AcronNewsUITests */,
+				B77F7DB823B554E7007F38E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B77F7DB823B554E7007F38E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B77F7DB723B554E7007F38E0 /* AcronNews.app */,
+				B77F7DCD23B554EA007F38E0 /* AcronNewsTests.xctest */,
+				B77F7DD823B554EA007F38E0 /* AcronNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77F7DB923B554E7007F38E0 /* AcronNews */ = {
+			isa = PBXGroup;
+			children = (
+				B77F7DBA23B554E7007F38E0 /* AppDelegate.swift */,
+				B77F7DBC23B554E7007F38E0 /* SceneDelegate.swift */,
+				B77F7DBE23B554E7007F38E0 /* ViewController.swift */,
+				B77F7DC023B554E7007F38E0 /* Main.storyboard */,
+				B77F7DC323B554EA007F38E0 /* Assets.xcassets */,
+				B77F7DC523B554EA007F38E0 /* LaunchScreen.storyboard */,
+				B77F7DC823B554EA007F38E0 /* Info.plist */,
+			);
+			path = AcronNews;
+			sourceTree = "<group>";
+		};
+		B77F7DD023B554EA007F38E0 /* AcronNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B77F7DD123B554EA007F38E0 /* AcronNewsTests.swift */,
+				B77F7DD323B554EA007F38E0 /* Info.plist */,
+			);
+			path = AcronNewsTests;
+			sourceTree = "<group>";
+		};
+		B77F7DDB23B554EA007F38E0 /* AcronNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B77F7DDC23B554EA007F38E0 /* AcronNewsUITests.swift */,
+				B77F7DDE23B554EA007F38E0 /* Info.plist */,
+			);
+			path = AcronNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77F7DB623B554E6007F38E0 /* AcronNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77F7DE123B554EA007F38E0 /* Build configuration list for PBXNativeTarget "AcronNews" */;
+			buildPhases = (
+				B77F7DB323B554E6007F38E0 /* Sources */,
+				B77F7DB423B554E6007F38E0 /* Frameworks */,
+				B77F7DB523B554E6007F38E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcronNews;
+			productName = AcronNews;
+			productReference = B77F7DB723B554E7007F38E0 /* AcronNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B77F7DCC23B554EA007F38E0 /* AcronNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77F7DE423B554EA007F38E0 /* Build configuration list for PBXNativeTarget "AcronNewsTests" */;
+			buildPhases = (
+				B77F7DC923B554EA007F38E0 /* Sources */,
+				B77F7DCA23B554EA007F38E0 /* Frameworks */,
+				B77F7DCB23B554EA007F38E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77F7DCF23B554EA007F38E0 /* PBXTargetDependency */,
+			);
+			name = AcronNewsTests;
+			productName = AcronNewsTests;
+			productReference = B77F7DCD23B554EA007F38E0 /* AcronNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B77F7DD723B554EA007F38E0 /* AcronNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77F7DE723B554EA007F38E0 /* Build configuration list for PBXNativeTarget "AcronNewsUITests" */;
+			buildPhases = (
+				B77F7DD423B554EA007F38E0 /* Sources */,
+				B77F7DD523B554EA007F38E0 /* Frameworks */,
+				B77F7DD623B554EA007F38E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77F7DDA23B554EA007F38E0 /* PBXTargetDependency */,
+			);
+			name = AcronNewsUITests;
+			productName = AcronNewsUITests;
+			productReference = B77F7DD823B554EA007F38E0 /* AcronNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B77F7DAF23B554E6007F38E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AcronDesign;
+				TargetAttributes = {
+					B77F7DB623B554E6007F38E0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B77F7DCC23B554EA007F38E0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B77F7DB623B554E6007F38E0;
+					};
+					B77F7DD723B554EA007F38E0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B77F7DB623B554E6007F38E0;
+					};
+				};
+			};
+			buildConfigurationList = B77F7DB223B554E6007F38E0 /* Build configuration list for PBXProject "AcronNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B77F7DAE23B554E6007F38E0;
+			productRefGroup = B77F7DB823B554E7007F38E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77F7DB623B554E6007F38E0 /* AcronNews */,
+				B77F7DCC23B554EA007F38E0 /* AcronNewsTests */,
+				B77F7DD723B554EA007F38E0 /* AcronNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B77F7DB523B554E6007F38E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77F7DC723B554EA007F38E0 /* LaunchScreen.storyboard in Resources */,
+				B77F7DC423B554EA007F38E0 /* Assets.xcassets in Resources */,
+				B77F7DC223B554E7007F38E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77F7DCB23B554EA007F38E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77F7DD623B554EA007F38E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77F7DB323B554E6007F38E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77F7DBF23B554E7007F38E0 /* ViewController.swift in Sources */,
+				B77F7DBB23B554E7007F38E0 /* AppDelegate.swift in Sources */,
+				B77F7DBD23B554E7007F38E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77F7DC923B554EA007F38E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77F7DD223B554EA007F38E0 /* AcronNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77F7DD423B554EA007F38E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77F7DDD23B554EA007F38E0 /* AcronNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B77F7DCF23B554EA007F38E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77F7DB623B554E6007F38E0 /* AcronNews */;
+			targetProxy = B77F7DCE23B554EA007F38E0 /* PBXContainerItemProxy */;
+		};
+		B77F7DDA23B554EA007F38E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77F7DB623B554E6007F38E0 /* AcronNews */;
+			targetProxy = B77F7DD923B554EA007F38E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B77F7DC023B554E7007F38E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B77F7DC123B554E7007F38E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B77F7DC523B554EA007F38E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B77F7DC623B554EA007F38E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B77F7DDF23B554EA007F38E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B77F7DE023B554EA007F38E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B77F7DE223B554EA007F38E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5752TAHCMC;
+				INFOPLIST_FILE = AcronNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.AcronDesign.AcronNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B77F7DE323B554EA007F38E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5752TAHCMC;
+				INFOPLIST_FILE = AcronNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.AcronDesign.AcronNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B77F7DE523B554EA007F38E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5752TAHCMC;
+				INFOPLIST_FILE = AcronNewsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.AcronDesign.AcronNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronNews.app/AcronNews";
+			};
+			name = Debug;
+		};
+		B77F7DE623B554EA007F38E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5752TAHCMC;
+				INFOPLIST_FILE = AcronNewsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.AcronDesign.AcronNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronNews.app/AcronNews";
+			};
+			name = Release;
+		};
+		B77F7DE823B554EA007F38E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5752TAHCMC;
+				INFOPLIST_FILE = AcronNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.AcronDesign.AcronNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcronNews;
+			};
+			name = Debug;
+		};
+		B77F7DE923B554EA007F38E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5752TAHCMC;
+				INFOPLIST_FILE = AcronNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.AcronDesign.AcronNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcronNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77F7DB223B554E6007F38E0 /* Build configuration list for PBXProject "AcronNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77F7DDF23B554EA007F38E0 /* Debug */,
+				B77F7DE023B554EA007F38E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77F7DE123B554EA007F38E0 /* Build configuration list for PBXNativeTarget "AcronNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77F7DE223B554EA007F38E0 /* Debug */,
+				B77F7DE323B554EA007F38E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77F7DE423B554EA007F38E0 /* Build configuration list for PBXNativeTarget "AcronNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77F7DE523B554EA007F38E0 /* Debug */,
+				B77F7DE623B554EA007F38E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77F7DE723B554EA007F38E0 /* Build configuration list for PBXNativeTarget "AcronNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77F7DE823B554EA007F38E0 /* Debug */,
+				B77F7DE923B554EA007F38E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B77F7DAF23B554E6007F38E0 /* Project object */;
+}
